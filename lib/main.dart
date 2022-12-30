@@ -26,8 +26,8 @@ class MyApp extends StatelessWidget {
       //     baseColor: Color(0xFFE5EDF5),
       //     lightSource: LightSource.topLeft,
       //     depth: 3),
-      home: MyApp1(),
-// home:SecondCard(),
+      // home: MyApp1(),
+home:SecondCard(),
     );
   }
 }
