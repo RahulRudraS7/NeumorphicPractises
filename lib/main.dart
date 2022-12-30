@@ -21,8 +21,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
      
-      // home: MyApp1(),
-home:SecondCard(),
+      home: MyApp1(),
+// home:SecondCard(),
     );
   }
 }
