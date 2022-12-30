@@ -2,7 +2,7 @@
 
 
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
-// import 'package:flutter_font_icons/flutter_font_icons.dart';
+
 
 class SecondCard extends StatelessWidget {
   const SecondCard({super.key});
@@ -39,7 +39,7 @@ class SecondCard extends StatelessWidget {
                   height: 40,
                 ),
                 Wrap(
-                  spacing: 20,
+                  spacing: 40,
                   runSpacing: 20,
                   children: const [
                     CardWidgetTwo(
@@ -86,9 +86,9 @@ class SecondCard extends StatelessWidget {
                         ),
                       ),
                     ),
-                    // const IconWidget(
-                    //   // inactiveIcon: Icons.gift,
-                    // ),
+                    const IconWidget(
+                      inactiveIcon: Icons.card_giftcard,
+                    ),
                     const IconWidget(
                       inactiveIcon: Icons.credit_card,
                     ),

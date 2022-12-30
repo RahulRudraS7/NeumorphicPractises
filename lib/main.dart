@@ -20,12 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      // title: "Demo",
-      // themeMode: ThemeMode.light,
-      // theme: NeumorphicThemeData(
-      //     baseColor: Color(0xFFE5EDF5),
-      //     lightSource: LightSource.topLeft,
-      //     depth: 3),
+     
       // home: MyApp1(),
 home:SecondCard(),
     );
