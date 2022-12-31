@@ -2,9 +2,11 @@
 
 import 'package:device_preview/device_preview.dart';
 import 'package:finalprojects/Screens/practise1.dart';
+import 'package:finalprojects/Screens/practise3.dart';
 import 'package:finalprojects/Screens/screen2.dart';
+
 import 'package:flutter_neumorphic/flutter_neumorphic.dart';
-// import 'package:nuemo/Screens/screen2.dart';
+
 
 void main() {
   runApp(DevicePreview(
@@ -21,7 +23,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
      
-      home: MyApp1(),
+      // home: MyApp1(),
+home:ThirdCard2(),
 // home:SecondCard(),
     );
   }

@@ -40,7 +40,7 @@ class SecondCard extends StatelessWidget {
                 ),
                 Wrap(
                   spacing: 40,
-                  runSpacing: 20,
+                  runSpacing: 40,
                   children: const [
                     CardWidgetTwo(
                       icon: Icons.alarm,
